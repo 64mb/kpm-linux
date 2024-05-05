@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Kaspersky Password Manager
+Name[en_US]=Kaspersky Password Manager
+Name[en_GB]=Kaspersky Password Manager
+Icon=${HOME}/.appimage/kpm/icon.png
+Exec=${HOME}/.appimage/kpm/kpm-linux.AppImage
+Path=${HOME}/.appimage/kpm
+Type=Application
+Categories=X-GNOME-Utilities;

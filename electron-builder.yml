@@ -1,0 +1,22 @@
+appId: ru.app64mb.kpm
+productName: kpm-linux
+directories:
+  buildResources: build
+files:
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!electron.vite.config.{js,ts,mjs,cjs}'
+  - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}'
+  - '!{.env,.env.*,.npmrc,pnpm-lock.yaml}'
+  - '!{tsconfig.json,tsconfig.node.json,tsconfig.web.json}'
+asarUnpack:
+  - resources/**
+linux:
+  target:
+    - AppImage
+  maintainer: 64mb
+  category: Utility
+  icon: resources/icons
+appImage:
+  artifactName: ${name}.${ext}
+npmRebuild: false
