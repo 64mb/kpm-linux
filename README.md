@@ -21,3 +21,7 @@ $ bun run dev
 ```bash
 $ bun run build-linux
 ```
+
+---
+
+\#kpm \#kaspersky \#password \#manager \#linux
